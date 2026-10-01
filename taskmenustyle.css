@@ -4,7 +4,7 @@
 }
 .task-menu-title {
   font-weight: bold;
-  padding: 12px;
+  padding: 10px;
   background-color: #000000;
   border: 1px solid #a39c9c;
   color: rgb(255, 255, 255);
@@ -47,8 +47,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: min(100%, 1200px);
-  box-sizing: border-box;
   grid-area: header;
   text-align: left;
 }

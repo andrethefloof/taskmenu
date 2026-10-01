@@ -1,0 +1,65 @@
+.task-menu {
+  width: 700px;
+  height: 350px;
+}
+.task-menu-title {
+  font-weight: bold;
+  padding: 12px;
+  background-color: #000000;
+  border: 1px solid #a39c9c;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.task-menu-list {
+  padding-left: 10px;
+  border: 1px solid #a39c9c;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+}
+.task-menu-list a:hover {
+  background-color: rgba(92, 219, 115, 0.677);
+}
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/016/828/098/non_2x/abstract-topographic-map-background-abstract-topographic-map-background-imitation-of-a-geographical-map-geographic-map-conceptual-design-elegant-background-for-presentations-free-vector.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #0f0f12;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container div {
+  background-color: rgba(89, 102, 101, 0.583);
+  padding: 20px;
+}
+.container div.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(100%, 1200px);
+  box-sizing: border-box;
+  grid-area: header;
+  text-align: left;
+}
+.container div.task-menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content;
+  text-align: center;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;
+}
